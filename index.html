@@ -1,10 +1,12 @@
 <html>
 <head>
-    <title>Me1t_</title>
+    <title>th1s 1s 5ty1e</title>
     <link rel="stylesheet" href="css/main.css">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
     <script src="canvas/back.js"></script>
+    <script src="canvas/title.js"></script>
+    <script src="js/scroll.js"></script>
 </head>
 <body>
 
@@ -13,10 +15,27 @@
 </div>
 <div id="container">
     <div id="title">
-      <h1>ひーちゃんのポートフォなんとか</h1>
-      <h3>https://me1tmt.github.io</h3>
+      <canvas id="titleLogo" width="600" height="260"></canvas>
     </div>
     <div class="contents">
+      <ul id="index">
+        <li><a href="#top">Top</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#social">Social</a></li>
+        <li>Articles</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="contents" id="top">
+      <h1>Top</h1>
+      <p>
+        面倒臭がりのだらだらプログラマのポートフォリオサイト(?)です。
+      </p>
+      <p>
+        Canvasで遊びたかっただけですが。
+      </p>
+    </div>
+    <div class="contents" id="about">
       <h1>About Me</h1>
       <ul>
         <li>Name: ひーちゃん</li>
@@ -28,16 +47,18 @@
         <li>Lang: C++, Python3, Swift</li>
         <li>sub: Java, C#, JavaScript</li>
       </ul>
-      <h1>Links</h1>
-      <ul>
-        <li>Twitter: <a href="https://twitter.com/me1t_">@me1t_</a></li>
-        <li>Github: <a href="https://github.com/Me1tMT">Me1tMT</a></li>
-      </ul>
       <h1>Introduction</h1>
       <p>
         高専プロコンに二度ほど出場したオタク。フレンチトーストをこよなく愛している。
         学校では気ままにやりたい放題している。
       </p>
+    </div>
+    <div class="contents" id="social">
+      <h1>Social</h1>
+      <ul>
+        <li>Twitter: <a href="https://twitter.com/me1t_">@me1t_</a></li>
+        <li>Github: <a href="https://github.com/Me1tMT">Me1tMT</a></li>
+      </ul>
     </div>
     <div class="contents">
       <h1>高専プロコン</h1>
