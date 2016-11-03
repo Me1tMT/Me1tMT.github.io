@@ -47,7 +47,9 @@ li {
   width: 60%;
   margin: auto;
   margin-top: 30px;
+  margin-bottom: 30px;
   padding: 15px;
+  padding-top: 0.1px;
   opacity: 0.9;
 }
 
@@ -61,4 +63,8 @@ li {
   font-weight: lighter;
   border-bottom: inset 2px #000000;
   padding-left: 15px;
+}
+
+img {
+  margin: 15px;
 }
