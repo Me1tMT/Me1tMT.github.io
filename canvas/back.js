@@ -1,10 +1,12 @@
+var width = window.parent.screen.width;
+var height = window.parent.screen.height;
 var circleNum = 7;
 var circles = [];
 
 var sizes = [];
 var colors = ["#ffdd00", "#dd00ff", "#00ffdd"];
-var xlist = [200, 1200, 600];
-var ylist = [200, 400, 700];
+var xlist = [width*0.2, width*0.8, width*0.6];
+var ylist = [height*0.3, height*0.5, height*0.7];
 
 var setupSizes = function(){
   var temp = 25;
