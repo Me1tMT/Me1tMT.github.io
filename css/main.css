@@ -17,7 +17,7 @@ body #wrapper{
     left:20px;
 }
 canvas {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 li {
@@ -28,7 +28,7 @@ li {
 #title {
   font-family: -apple-system, Sans-Serif;
   font-weight: lighter;
-  color: #ffffff;
+  color: #000000;
   margin: auto;
   width: 70%;
   align-content: center;
@@ -61,7 +61,7 @@ ul#index li{
 }
 
 ul#index a {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -72,6 +72,8 @@ ul#index a:hover {
 }
 
 .contents {
+  border-width: thin;
+  border: 1px solid black;
   font-family: -apple-system, Sans-Serif;
   font-weight: 300;
   background-color: #ffffff;
@@ -82,7 +84,7 @@ ul#index a:hover {
   margin-bottom: 30px;
   padding: 15px;
   padding-top: 0.1px;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .contents p {
