@@ -5,7 +5,7 @@ onload = function() {
 function drawTitle() {
   var canvas = document.getElementById('titleLogo');
   var ctx = canvas.getContext('2d');
-  ctx.strokeStyle = "black";
+  ctx.strokeStyle = "#1D3557";
   ctx.lineWidth = 2;
   ctx.beginPath();
   ctx.moveTo(50, 175);

@@ -4,7 +4,7 @@ var circleNum = 7;
 var circles = [];
 
 var sizes = [];
-var colors = ["#ffdd00", "lightgreen", "#00ffdd", "#dd00ff", 'red'];
+var colors = ["#457B9D", "#1D3557", "#E62646", "457B9D", '#A8DADC'];
 var xlist = [width*0.2, width*0.8, width*0.5, width*0.8, width*0.2];
 var ylist = [height*0.3, height*0.3, height*0.5, height*0.8, height*0.8];
 

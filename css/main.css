@@ -28,7 +28,7 @@ li {
 #title {
   font-family: -apple-system, Sans-Serif;
   font-weight: lighter;
-  color: #000000;
+  color: #1D3557;
   margin: auto;
   width: 70%;
   align-content: center;
@@ -49,19 +49,19 @@ ul#index {
   padding-left: 0px;
   margin-top: 15px;
   margin-bottom: 0;
-  border-right: 2px solid gray;
+  border-right: 2px solid #1D3557;
 }
 
 ul#index li{
   width: 20%;
   display: table-cell;
   text-align: center;
-  border-left: 2px solid gray;
+  border-left: 2px solid #1D3557;
   margin: 2px;
 }
 
 ul#index a {
-  color: #000000;
+  color: #1D3557;
   text-decoration: none;
 }
 
@@ -73,18 +73,18 @@ ul#index a:hover {
 
 .contents {
   border-width: thin;
-  border: 1px solid black;
+  border: 1px solid #1D3557;
   font-family: -apple-system, Sans-Serif;
   font-weight: 300;
   background-color: #ffffff;
-  color: #000000;
+  color: #1D3557;
   width: 70%;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 15px;
   padding-top: 0.1px;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .contents p {
@@ -95,7 +95,7 @@ ul#index a:hover {
 .contents h1{
   font-family: -apple-system, Sans-Serif;
   font-weight: lighter;
-  border-bottom: inset 2px #000000;
+  border-bottom: inset 2px #1D3557;
   padding-left: 15px;
   line-height: 95%;
 }
